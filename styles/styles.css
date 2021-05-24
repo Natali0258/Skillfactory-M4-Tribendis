@@ -487,7 +487,7 @@ li > a {
 	opacity: 0;
 }
 
-/* создади поддельный чекбокс */
+/* создание поддельного чекбокса */
 .checkbox-label::before {
 	content: "";
 	display: block;
@@ -607,9 +607,6 @@ li > a {
 .section4-repair-designer__image {
 	background-image: url("../images/image 33.jpg");
 }
-/* .section4-repair-redecorating-text-1 {
-	text-shadow: 2px 2px #959595;
-} */
 .section4-text {
 	display: flex;
 	flex-direction: column;
@@ -1607,12 +1604,8 @@ li > a {
 	}
 	.section7__mobilmap {
 		background-image: url("../images/image 7.1.jpg");
-		/* width: 455px;
-		height: 367px; */
 		width: 340px;
 		height: 245px;
-		/* margin-top: 43px;
-		margin-left: 43px; */
 		margin: 68px 18px 43px 18px;
 		background-size: cover;
 	}
