@@ -1237,7 +1237,7 @@ li > a {
 	}
 }
 @media screen and (max-width: 1300px) /*and (min-width: 801px) */ {
-	section:not(.header):not(.section1):not(.section2):not(.section3)/*:not(.section4):not(.section5):not(.section6):not(.section7)*/ {
+	section:not(.header):not(.section1):not(.section2):not(.section3):not(.section4):not(.section5):not(.section6):not(.section7) {
 		display: none;
 	}
 	.footer,
@@ -1432,7 +1432,7 @@ li > a {
 	}
 }
 @media screen and (max-width: 800px) {
-	section:not(.header):not(.section1):not(.section2):not(.section3)/*:not(.section4):not(.section5):not(.section6):not(.section7)*/ {
+	section:not(.header):not(.section1):not(.section2):not(.section3):not(.section4):not(.section5):not(.section6):not(.section7) {
 		display: none;
 	}
 	.header-navigation,
