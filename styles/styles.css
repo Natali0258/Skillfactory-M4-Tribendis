@@ -268,7 +268,6 @@ li > a {
 	height: 482px;
 	background-size: cover;
 	position: relative;
-	/* margin-right: 133px; */
 	margin-right: 46px;
 }
 .section2-conten-info-details {
@@ -467,7 +466,6 @@ li > a {
 	text-align: left;
 	color: #363636;
 }
-
 .form-button {
 	background-color: #e3b873;
 	border: 1px solid #e3b873;
@@ -735,7 +733,6 @@ li > a {
 	margin-left: 110px;
 	background-color: #131313;
 }
-
 .form-title {
 	margin-top: 28px;
 	margin-bottom: 0;
@@ -760,7 +757,6 @@ li > a {
 	margin-bottom: 7px;
 	padding-left: 49px;
 }
-
 .item-input {
 	border-top: 7px;
 	border-right: 0;
@@ -790,7 +786,6 @@ li > a {
 	height: 18px;
 	border-radius: 1px;
 }
-
 .section4-calculation-form__button {
 	width: 213px;
 	height: 51px;
@@ -855,7 +850,6 @@ li > a {
 .section5-container {
 	display: flex;
 	justify-content: space-between;
-	/* height: 1147px; */
 	margin-top: 242px;
 }
 .section5-navigation {
@@ -992,7 +986,6 @@ li > a {
 	flex-direction: column;
 	width: 376px;
 	height: 455px;
-	/* height: 428px; */
 	margin-top: 39px;
 }
 .section6-family {
@@ -1231,7 +1224,6 @@ li > a {
 		display: none;
 	}
 }
-
 @media screen and (max-width: 1300px) {
 	section:not(.header):not(.section1):not(.section2):not(.section3):not(.section4):not(.section5):not(.section6):not(.section7) {
 		display: none;
@@ -1264,6 +1256,13 @@ li > a {
 	.header-telephone {
 		margin: 0;
 		padding-right: 18px;
+	}
+	.telephone {
+		text-decoration-line: none;
+	}
+	a:link {
+		color: #ffffff;
+		text-decoration: none;
 	}
 	.section1 {
 		padding-top: 85px;
@@ -1312,7 +1311,7 @@ li > a {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		margin-left: 18px;
+		margin-left: 0;
 	}
 	.section2-conten-info__title {
 		margin-top: 36px;
@@ -1492,6 +1491,8 @@ li > a {
 	.section4-cost {
 		width: 190px;
 		height: 40px;
+		font-size: 15px;
+		line-height: 21px
 		padding: 12.5px 0;
 		margin-top: -20px;
 	}
